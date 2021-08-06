@@ -1,0 +1,33 @@
+GET http://localhost:3000/contacts
+
+###
+
+#find one
+GET http://localhost:3000/contacts/5fece5d767ae691d966998a2
+
+###
+
+POST http://localhost:3000/contacts
+Content-Type: application/json
+
+{
+  "name": "Person 3 name",
+  "phone_number": "2222222"
+}
+
+
+### 
+
+#delete conact
+DELETE http://localhost:3000/contacts/5fece5cb67ae691d966998a1
+
+
+###
+
+PATCH http://localhost:3000/contacts/5fece5cb67ae691d966998a1
+Content-Type: application/json
+
+{
+  "name": "Person new name",
+  "phone_number": "123123123"
+}

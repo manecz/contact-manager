@@ -1,0 +1,13 @@
+.container-md {
+    max-width: 720px;
+}
+
+.sweet-modal-box {
+    position: absolute;
+    width: 30%;
+    left: 35%;
+}
+
+.form-control{
+    margin: 15px 0;
+}
